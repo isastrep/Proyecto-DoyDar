@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoyDar</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://use.typekit.net/lgz1piq.css">
+</head>
+
+<body class="pagina-registro">
+
+    <div>
+
+        <div id="header">
+
+            <header>
+                <h1><a href="index.html">Doy Dar</a></h1>
+                <img id="perfil_usuario" src="imagenes/inicio/perfil_usuario.avif" alt="Perfil del usuario">
+            </header>
+
+        </div>
+
+        <main>
+
+            <section class="bienvenida">
+
+                <h3>Únete a la familia y<br>aporta tu granito<br> de arena</h3>
+
+            </section>
+
+            <section class="tarjeta-de-registro">
+
+                <h2>Paso 3</h2>
+
+                <div class="barra-progreso">
+                    <div class="progreso-paso-3"></div>
+                </div>
+
+                <div id="informacion-contacto">
+
+                    <h4>Información de contacto</h4>
+
+                    <input type="text"
+                           name="ubicacion"
+                           placeholder="Ubicación">
+
+                    <input type="email"
+                           name="correo"
+                           placeholder="Correo electrónico">
+
+                    <input type="tel"
+                           name="telefono"
+                           placeholder="Teléfono"
+                           pattern="[0-9]{9}"
+                           maxlength="9"
+                           title="Introduce un teléfono de 9 cifras">
+
+                    <input type="text"
+                           name="dni"
+                           placeholder="DNI"
+                           pattern="[0-9]{8}[A-Za-z]"
+                           maxlength="9"
+                           title="Introduce 8 números y una letra">
+
+                    <div class="imagenes-dni">
+
+                        <label class="subir-dni">
+                            <span>Cara delantera del DNI</span>
+                            <input type="file"
+                                   name="dni-delantero"
+                                   accept="image/*">
+                        </label>
+
+                        <label class="subir-dni">
+                            <span>Cara trasera del DNI</span>
+                            <input type="file"
+                                   name="dni-trasero"
+                                   accept="image/*">
+                        </label>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <nav class="navegacion">
+
+            <a href="registro2.html" class="boton-flecha">‹</a>
+
+            <a href="registro4.html" class="boton-flecha">›</a>
+
+        </nav>
+
+    </div>
+
+</body>
+</html>
